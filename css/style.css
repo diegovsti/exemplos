@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Bahnschrift";
+}
+
+.container{
+	width: 100%;
+	height: 1100px;
+	background: url(../img/fundo-index.jpg);	
+	background-size: cover;
+}
+
+.topo {
+	width: 100%;
+	max-width: 1000px;
+	height: 80px;
+	margin: auto;
+	overflow: hidden;
+}
+.topo a {
+	text-decoration: none;
+	margin: auto;
+}
+
+.topo h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #3498db;
+	font-size: 40px;
+	line-height: 30px;
+}
+
+.exemplos-section {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.conteudo-interno {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.conteudo-interno h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 30px 0;
+	color: #ccc;
+}
+
+.conteudo-interno .border {
+	width: 100px;
+	height: 4px;
+	background-color: #3498db;
+	margin: auto;
+	margin-top: -20px;
+}
+
+.exemplos-row {
+
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.exemplos-col {
+	width: 30%;
+	height: 200px;
+	line-height: 10px;
+	float: left;
+	margin-top: 60px;
+	margin-right: 15px;
+	padding: 30px 5px 0 5px;
+}
+
+.exemplos-col:hover{
+	transform: scale(1.3);
+}
+
+.exemplos-col i {
+	display: inline-block;
+	margin-left: 120px;
+	border: 3px solid #3498db;
+	padding: 20px;
+	color: #fff;
+}
+
+.exemplos-col i:hover {
+	background-color: #3498db;
+	color: #ddd;
+}
+
+.exemplos-col a {
+	text-decoration: none;
+	color: #ddd;
+}
+
+.exemplos-col a:hover{
+	color: #3498db;
+}
+
+.exemplos-col h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+
+
+}
+
+
+.exemplos-col p {
+	text-align: center;
+	font-size: 14px;
+	color: #3498db;
+}
+
+
+/*media querys*/
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+
+	.container {
+		width: 100%;
+		height: 1500px;
+		margin: auto;
+		background: url(../img/fundo-index-tablet.jpg);	
+		background-size: cover;
+
+	}
+	.exemplos-row{
+		width: 100%;
+		float: left; 
+		margin-top: 60px;
+		margin-left: 50px;
+	}
+	.exemplos-col {
+		width: 42%;
+		float: left;
+		margin: auto;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	.container {
+		width: 100%;
+		height: 2200px;
+		margin: auto;
+		background: url(../img/fundo-index-mobile.jpg);	
+		background-size: cover;
+	}
+	.exemplos-row{
+		width: 100%;
+		margin-top: 60px;
+		margin-left: 50px;
+	}
+	.exemplos-col {
+		width: 88%;
+		margin: auto;
+
+	}
+
+	.exemplos-col i {
+		margin-left: 160px;
+
+	}
+}

@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	max-width: 1000px;
+	height: 150px;
+	background: #ccf;
+	margin: auto;	
+	margin-top:
+}
+
+.topo h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: auto;
+	line-height: 150px;
+}
+
+.conteudo {
+	max-width: 1000px;
+	height: auto;
+	margin: auto;
+}
+
+.conteudo-interno {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.cidades {
+	background-color: #ccc;
+	max-width: 1000px;
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.cidade {
+	width: 23%;
+	background: #fff;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	margin-left: 10px;
+	float: left;
+	margin-top: 20px;
+}
+.cidade h3 {
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cidade p{
+	font-size: 13px;
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 800px)
+{
+	.cidades {
+		height: 500px;
+	}
+	.cidade {
+		width: 48%;
+
+	}
+}
+
+@media only screen and (max-width: 499px)
+{
+	.cidades {
+		height: 900px;
+		margin: auto;
+	}
+	.cidade {
+		width: 100%;
+	}
+}

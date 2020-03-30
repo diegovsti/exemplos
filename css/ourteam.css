@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.team-section {
+	background: #f1f1f1;
+	text-align: center;
+}
+
+.inner-width {
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px;
+	color: #333;
+	overflow: hidden;
+}
+
+.team-section h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 4px solid #333;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.pe {
+	float: left;
+	width: calc(100% / 3);
+	overflow: hidden;
+	padding: 40px 0;
+}
+.pe:hover {
+	background: #ddd;
+}
+
+.pe img {
+	width: 120px;
+	height: 120px;
+	border-radius: 30px;
+}
+
+.p-name {
+	margin: 16px 0;
+	text-transform: uppercase;
+}
+
+.p-des {
+	font-style: italic;
+	color: #3498db;
+	margin-bottom: 10px;
+}
+
+.p-sm  {
+	margin-top: 12px;
+}
+
+.p-sm a {
+	margin: 0 4px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	transition: 0.6s;
+}
+
+.p-sm a:hover{
+	transform: scale(1.5);
+}
+
+.p-sm a i {
+	color: #333;
+	line-height: 13px;
+}
+
+.p-sm a.f:hover{
+	color: #3b5998;
+}
+
+.p-sm a.ins {
+	color: #517fa4;
+}
+
+.p-sm a.tw {
+	color: #00aced;
+}
+
+.p-sm a.you {
+	color: #bb0000;
+}
+
+.p-sm a i.face:hover {
+	color: #3b5998;
+}
+.p-sm a i.insta:hover {
+	color: #517fa4;
+}
+.p-sm a i.twitter:hover {
+	color: #00aced;
+}
+.p-sm a i.youtube:hover {
+	color: #bb0000;
+}
+
+@media only screen and (max-width: 600px) {
+	.pe {
+		width: 100%;
+	}
+}
